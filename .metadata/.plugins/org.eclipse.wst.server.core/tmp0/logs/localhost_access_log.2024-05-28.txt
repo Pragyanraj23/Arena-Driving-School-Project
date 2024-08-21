@@ -1,0 +1,14 @@
+127.0.0.1 - - [28/May/2024:12:24:05 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:25:26 +0530] "GET /DrivingSchoolArena/WEB-INF/web.xml HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:25:28 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [28/May/2024:12:26:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:26:42 +0530] "GET /DrivingSchoolArena/jsp/aboutus.jsp HTTP/1.1" 200 8256
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:26:43 +0530] "GET /DrivingSchoolArena/images/bg13.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:26:54 +0530] "GET /DrivingSchoolArena/admin/admin_login.jsp HTTP/1.1" 200 7843
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:26:54 +0530] "GET /DrivingSchoolArena/Common/validation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:26:54 +0530] "GET /DrivingSchoolArena/images/bg1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:28:52 +0530] "GET /DrivingSchoolArena/admin/admin_login.jsp HTTP/1.1" 200 7843
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:28:52 +0530] "GET /DrivingSchoolArena/images/icons8.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:28:57 +0530] "GET /DrivingSchoolArena/trainer/Trainerlogin.jsp HTTP/1.1" 200 8099
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:28:57 +0530] "GET /DrivingSchoolArena/images/bg-5.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/May/2024:12:29:04 +0530] "GET /DrivingSchoolArena/trainee/trainee_login.jsp HTTP/1.1" 200 7695

@@ -1,0 +1,6 @@
+127.0.0.1 - - [14/Jun/2024:06:49:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:06:49:44 +0530] "GET /DrivingSchoolArena/admin/addprogram.jsp HTTP/1.1" 200 8939
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:06:50:00 +0530] "GET /DrivingSchoolArena/admin/adminhome.jsp HTTP/1.1" 200 6822
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:06:50:05 +0530] "GET /DrivingSchoolArena/Admin_logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:06:50:05 +0530] "GET /DrivingSchoolArena/admin/admin_login.jsp HTTP/1.1" 200 7843
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:06:50:13 +0530] "GET /DrivingSchoolArena/jsp/index.jsp HTTP/1.1" 200 12983

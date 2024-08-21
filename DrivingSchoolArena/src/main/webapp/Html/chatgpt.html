@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Vehicle Platform Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type=text], input[type=email], input[type=tel], input[type=password], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .error {
+            color: red;
+            font-size: 0.8em;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Online Learning Vehicle Platform Registration</h2>
+    <form id="registrationForm" action="#" method="post" onsubmit="return validateForm()">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <span id="fullnameError" class="error"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error"></span>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required>
+        <span id="phoneError" class="error"></span>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <span id="passwordError" class="error"></span>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <span id="confirmPasswordError" class="error"></span>
+
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+<script>
+    function validateForm() {
+        var isValid = true;
+
+        var fullname = document.getElementById("fullname").value;
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirmPassword").value;
+
+        var fullnameError = document.getElementById("fullnameError");
+        var emailError = document.getElementById("emailError");
+        var phoneError = document.getElementById("phoneError");
+        var passwordError = document.getElementById("passwordError");
+        var confirmPasswordError = document.getElementById("confirmPasswordError");
+
+        fullnameError.innerHTML = "";
+        emailError.innerHTML = "";
+        phoneError.innerHTML = "";
+        passwordError.innerHTML = "";
+        confirmPasswordError.innerHTML = "";
+
+        // Basic validation for empty fields
+        if (fullname.trim() === "") {
+            fullnameError.innerHTML = "Please enter your full name";
+            isValid = false;
+        }
+
+        if (email.trim() === "") {
+            emailError.innerHTML = "Please enter your email";
+            isValid = false;
+        }
+
+        if (phone.trim() === "") {
+            phoneError.innerHTML = "Please enter your phone number";
+            isValid = false;
+        }
+
+        if (password.trim() === "") {
+            passwordError.innerHTML = "Please enter a password";
+            isValid = false;
+        }
+
+        if (confirmPassword.trim() === "") {
+            confirmPasswordError.innerHTML = "Please confirm your password";
+            isValid = false;
+        }
+
+        // Password matching validation
+        if (password !== confirmPassword) {
+            passwordError.innerHTML = "Passwords do not match";
+            confirmPasswordError.innerHTML = "Passwords do not match";
+            isValid = false;
+        }
+
+        return isValid;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+127.0.0.1 - - [24/May/2024:23:54:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/May/2024:23:55:10 +0530] "GET /DrivingSchoolArena/jsp/aboutus.jsp HTTP/1.1" 200 7863
+0:0:0:0:0:0:0:1 - - [24/May/2024:23:58:07 +0530] "GET /DrivingSchoolArena/jsp/aboutus.jsp HTTP/1.1" 200 7896
+0:0:0:0:0:0:0:1 - - [24/May/2024:23:58:32 +0530] "GET /DrivingSchoolArena/jsp/aboutus.jsp HTTP/1.1" 200 7900
+0:0:0:0:0:0:0:1 - - [24/May/2024:23:59:13 +0530] "GET /DrivingSchoolArena/jsp/aboutus.jsp HTTP/1.1" 200 7793
