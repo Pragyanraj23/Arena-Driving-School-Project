@@ -1,11 +1,11 @@
-# Arena-Driving-School-Project
+ko# Arena-Driving-School-Project
 
 About Project: 
 
 * This project is web-development project. This is about a driving school online management. 'Arena Driving School' is a school of driving which is manage by admin through website.
   
 
-* There are there modules especially.
+* There are three modules especially.
 
    1. Admin:- Admin can manage thier work by loging with the provided id and password. He/She can manage feedback, Adminssion related Enquiry and advertiesment, Driver Enquiry and Driver Management.
 
